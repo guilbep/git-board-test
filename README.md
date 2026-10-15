@@ -9,6 +9,7 @@ hours, sprint). Break anything here.
 ```bash
 git clone git@github.com:guilbep/git-board-test.git && cd git-board-test
 git bug pull                      # the issues, as git-bug data
+git bug user adopt 9dcbc62        # write as Guilbert Pierre (or: git bug user new)
 git board                         # the terminal UI
 git-board-server --addr 127.0.0.1:8080 --me guilbep   # the web UI
 git-board bridge sync             # what a sync with Project 1 would change
