@@ -1,0 +1,10 @@
+# A quick check for git-board's PR gate (M3 live test): one job, Tests.
+name: CI
+on:
+  pull_request:
+jobs:
+  tests:
+    name: Tests
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 30 && echo ok
