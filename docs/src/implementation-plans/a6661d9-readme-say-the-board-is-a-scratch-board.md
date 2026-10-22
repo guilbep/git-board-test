@@ -1,6 +1,6 @@
 ---
 issue: a6661d9
-status: draft
+status: accepted
 last_updated: 2026-10-22
 summary: Add a line to README.md saying this repository is a scratch board for git-board live tests.
 ---
